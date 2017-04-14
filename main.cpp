@@ -4,7 +4,7 @@
 # include "Untitled.c"
 // most basic form of compression
 int main() {
-
+/*
 	uint8_t buff[12288] = {0x0};
 
 	nib_args_t nib_args = {
@@ -26,8 +26,8 @@ int main() {
 
 	nib_uncompress(&_nib_args);
 	printf("new size: %d\n", _nib_args.size);
+*/
 
-/*
 	uint8_t my_string[] = "XXXXXYYYYYAAAAA";
 	uint8_t buff[21299] = {'\0'};
 
@@ -55,5 +55,5 @@ int main() {
 	printf("%d\n", _nib_args.size);
 
 	printf("%s\n%s\n", my_string, _buff);
-*/
+
 }

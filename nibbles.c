@@ -4,7 +4,7 @@ void *nib_compress(void *__nib_args) {
 	nib_args_t *nib_args = (nib_args_t *)__nib_args;
 
 	uint8_t sme_count = 0;
-	uint_t cmp_size = 0, data_point = 0;
+	mdl_uint_t cmp_size = 0, data_point = 0;
 	uint8_t bypass = 0;
 	do {
 		if (*nib_args-> data == *(nib_args-> data + 1)) {
@@ -31,7 +31,7 @@ void *nib_compress(void *__nib_args) {
 void *nib_uncompress(void *__nib_args) {
 	nib_args_t *nib_args = (nib_args_t *)__nib_args;
 
-	uint_t ucmp_size = 0, data_point = 0;
+	mdl_uint_t ucmp_size = 0, data_point = 0;
 	do {
 		if (*nib_args-> data == 1) {
 			*nib_args-> buff = *(nib_args-> data + 1);
