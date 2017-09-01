@@ -1,7 +1,7 @@
 ARC=-DARC64
-EINT_T_INC=
+MDLINT_INC=/usr/local/include
 all:
-	gcc -c -std=c11 $(ARC) -I$(EINT_T_INC) -o nibbles.o nibbles.c
+	gcc -c -std=c11 $(ARC) -I$(MDLINT_INC) -o nibbles.o nibbles.c
 	ar rcs lib/libnibbles.a nibbles.o
 	cp nibbles.h inc
 

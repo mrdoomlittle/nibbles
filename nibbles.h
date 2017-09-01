@@ -3,7 +3,7 @@
 # include <stdint.h>
 # include <stdlib.h>
 # include <stddef.h>
-# include <eint_t.h>
+# include <mdlint.h>
 # define NIB_SUCCESS 0
 # define NIB_FAILURE -1
 # define NIB_COMPRESS 0

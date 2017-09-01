@@ -1,7 +1,6 @@
 # include <nibbles.h>
 # include <string.h>
 # include <cstdio>
-# include "Untitled.c"
 // most basic form of compression
 int main() {
 /*
